@@ -1,5 +1,26 @@
 # Spark_Databricks
 
-This article proposes an analysis of the dataset of companies, establishments, and partners made available by the Brazilian Federal Revenue Service. This dataset is characterized by its vast extent, comprising millions of records, and will be the subject of an investigation to demonstrate the importance of Apache Spark tools, particularly in the DataBricks environment, for the efficient analysis of large volumes of data.
- The approach adopted in this study aims to explore how Apache Spark's distributed and in-memory processing features, combined with the scalability and optimization provided by the DataBricks environment, can be crucial to the effective analysis of this massive dataset. When faced with challenges of scale and complexity, such as the need for parallel processing and the manipulation of large volumes of data in an agile manner, the use of Spark in DataBricks proves essential for dealing with such demands.
- Throughout this article, we will examine how Spark's fundamental features, such as RDD (Resilient Distributed Datasets) abstraction, in-memory processing, and query optimization, combined with the collaboration and visualization facilities offered by the DataBricks environment, can enable sophisticated analysis and valuable insights from this complex data set from the Brazilian Federal Revenue Service.
+Self-study project (not professional/commercial work). Exploratory analysis
+of the companies, establishments and partners dataset published by the
+Brazilian Federal Revenue Service — millions of records — using Apache Spark
+on Databricks.
+
+## Overview
+
+The dataset's scale (millions of records) is the reason for the tool choice:
+Spark's distributed, in-memory processing model, combined with the
+scalability of the Databricks environment, is what makes analysis at this
+volume practical.
+
+The notebook explores Spark fundamentals — RDD abstraction, in-memory
+processing, query optimization — alongside the collaboration and
+visualization tooling in Databricks, to extract insights from the dataset.
+
+## Repo contents
+
+- `Projeto Spark 2024.ipynb` — the analysis notebook
+
+## Note
+
+This was a personal project to learn Spark/Databricks for large-scale data
+processing, not part of my professional experience.
